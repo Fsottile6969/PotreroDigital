@@ -68,6 +68,8 @@ a {
 }
 
 .cuerpo {
+	position: relative;
+	height: 508px;
 	display: block;
 	background: rgb(253, 162, 249);
 	padding-top: 142px;
@@ -125,6 +127,8 @@ li {
 	list-style: none;
 }
 .pieDePagina {
+	margin-top: 255px;
+	position: relative;
 	padding-top: 10px;
 	display: block;
 	height: 45px;
