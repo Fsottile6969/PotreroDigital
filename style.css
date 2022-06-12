@@ -1,0 +1,393 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+/* Header - menu */
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background: #f8e497;
+	background-image: url(imagenes/fondoHeader.png);
+	position: fixed;
+	width: 100%;
+	scrollbar-color: black;
+	z-index: 100;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	margin-left: 2rem;
+}
+
+.menu_superior_2 {
+	display: flex;
+	flex-direction: row;
+}
+
+.li_menu {
+	list-style: none;
+}
+
+.menu {
+	margin: 20px;
+	margin-top: 5px;
+	text-decoration: none;
+	color: rgb(9, 9, 9);
+	padding: 5px 10px 5px 10px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.menu:hover {
+	background-color: rgb(10, 10, 10);
+	border-radius: 50px;
+	color: yellow;
+}
+
+/* Cuerpo */
+
+.main {
+	display: flex;
+	width: 100%;
+	padding-top: 60px;
+	background: rgb(53, 53, 53);
+	flex-direction: column;
+}
+
+/* Aplicación de estilo experimental (efecto neon)*/
+
+.titulo_paginas {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: xx-large;
+	text-align: center;
+	padding-top: 3rem;
+	padding-bottom: 1.5rem;
+	text-shadow: 0 0 5px rgba(0, 178, 255, 1), 0 0 10px rgba(0, 178, 255, 3),
+		0 0 20px rgba(0, 178, 255, 1), 0 0 40px rgba(38, 104, 127, 3),
+		0 0 80px rgba(38, 104, 127, 1), 0 0 90px rgba(38, 104, 127, 3),
+		0 0 100px rgba(38, 104, 127, 1), 0 0 140px rgba(38, 104, 127, 3),
+		0 0 180px rgba(38, 104, 127, 3);
+}
+
+.nosotros {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	background-color: rgb(159, 254, 254);
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.nosotros p {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: italic;
+	font-size: x-large;
+	padding-right: 5rem;
+	padding-left: 5rem;
+	position: relative;
+	padding-top: 140px;
+	padding-bottom: 140px;
+	text-align: center;
+	letter-spacing: 1.5px;
+	background-color: #6bfa54;
+}
+
+/* Footer */
+
+.pieDePagina {
+	background-color: #ae60f7;
+	display: flex;
+	align-items: center;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+}
+
+.copyright_2 {
+	margin-left: 0.5rem;
+}
+
+.copyright {
+	margin-left: 2rem;
+}
+
+.btn-pedido {
+	text-decoration: none;
+	font-size: larger;
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: #fff;
+	margin-left: 20rem;
+	padding: 5px 10px;
+}
+
+.btn-pedido:hover {
+	background-color: rgb(253, 253, 0);
+	border-radius: 50px;
+	opacity: 0.9;
+	color: black;
+}
+
+.btn-inicio {
+	text-decoration: none;
+	margin-right: 20px;
+	font-size: large;
+	color: #fff;
+	margin-left: 10rem;
+}
+
+.btn-inicio:hover {
+	color: black;
+}
+
+/* Estilos de pagina PRODUCTOS */
+.cuerpo_1,
+.cuerpo_2,
+.cuerpo_3 {
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#titulo_paginas {
+	display: block;
+	align-items: center;
+	justify-content: center;
+	padding-top: 35px;
+}
+
+.section_1 {
+	display: flex;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	width: 15rem;
+	border: 1px solid lightgray;
+	box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+	border-radius: 15px;
+	font-family: sans-serif;
+	margin: 3rem;
+}
+
+.titulo {
+	font-size: 24px;
+	padding: 10px 10px 0 10px;
+	text-align: center;
+	padding-top: 1rem;
+	color: chartreuse;
+}
+
+.cuerpo_card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+.card img {
+	height: 16rem;
+	width: 100%;
+	object-fit: cover;
+	padding-top: 1rem;
+}
+
+.pie {
+	background: #6699ff;
+	border-radius: 0 0 15px 15px;
+	padding: 10px;
+	text-align: center;
+}
+
+.pie a {
+	text-decoration: none;
+	color: white;
+}
+
+/* Sabores */
+
+.info {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.info h1 {
+	position: absolute;
+	margin-left: 3rem;
+}
+
+.sabores {
+	display: flex;
+	margin-top: 10rem;
+	margin-bottom: 2rem;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.sabores img {
+	width: 12.67rem;
+	height: 12.65rem;
+}
+
+.sabores img:hover {
+	cursor: pointer;
+}
+
+.info p {
+	font-size: xx-large;
+	color: white;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+/* Horarios */
+
+.section_2 {
+	display: flex;
+	background-image: url(imagenes/fondoDePagina.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 70rem;
+	width: 100%;
+	flex-direction: column;
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+}
+
+.horarios {
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 3rem;
+	padding-top: 3rem;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.horarios ul {
+	list-style: circle;
+	font-size: 25px;
+	line-height: 50px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	background-color: #6bfa54;
+	background-size: cover;
+	padding: 1rem 3rem 1rem 2rem;
+}
+
+.horarios img {
+	width: 25rem;
+}
+
+/* Contacto */
+
+.section_3 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #f8e497;
+	margin-top: 2rem;
+}
+
+.section_3 img {
+	height: 27rem;
+	width: 29rem;
+	padding-left: 3rem;
+}
+
+.contacto {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: -50px;
+	padding-right: -3rem;
+}
+
+.contacto h1 {
+	display: block;
+	text-align: center;
+	color: #e6314c;
+	font-family: "Nunito", sans-serif;
+	font-size: 64px;
+	line-height: 68px;
+	font-weight: 500;
+	letter-spacing: 3px;
+	padding: 2rem 15rem 0 15rem;
+}
+
+.contacto p {
+	display: block;
+	font-family: "Nunito", sans-serif;
+	text-align: center;
+	padding: 1rem 15rem 0 15rem;
+	font-weight: 400;
+	letter-spacing: -0.8px;
+	color: #73706a;
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 2rem;
+}
+
+/* Formulario de contacto */
+
+.form_contacto {
+	margin-bottom: 2rem;
+}
+
+label {
+	display: block;
+	margin-top: 20px;
+	letter-spacing: 1px;
+}
+
+.principal {
+	display: block;
+	margin: 0 auto;
+	width: 510px;
+	color: white;
+	font-family: Arial;
+}
+
+form {
+	margin: 10px auto;
+	width: 400px;
+}
+
+input,
+textarea {
+	width: 380px;
+	height: 27px;
+	background: #a5a2a2;
+	padding: 10px;
+	margin-top: 5px;
+	font-size: 10px;
+	color: white;
+}
+
+textarea {
+	height: 150px;
+}
+
+#submit {
+	width: 85px;
+	height: 35px;
+	margin-top: 20px;
+	cursor: pointer;
+	color: white;
+}
+
+/* Realize lo mas que pude en los tiempos disponibles que tuve, debido a complicaciones familiares que estoy transcurriendo. Muchas gracias. */

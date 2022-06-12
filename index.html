@@ -4,54 +4,71 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Heladería Lili-Bana</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="shortcut icon"
+			type="image/x-icon"
+			href="imagenes/logoAquaBurbujas.png"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Heladería Via-Bana</title>
 	</head>
 	<body>
-		<header class="container" id="superior" >
-			<a href="index.html"><img
-							src="imágenes/lilibana-colores.jpeg"
-							alt="imagen de logo"
-							width="50px"
-							height="50px"
-		  /></a>
-			<nav>
-				<ul>
-					<li><span class="menu"
-						><h2><a href="#quienes somos">Quienes somos</a></h2></span
-					></li>
-					<li><span class="menu"
-						><h2><a href="productos.html">Productos</a></h2></span
-					></li>
-					<li><span class="menu"
-						><h2><a href="horarios.html">Horarios</a></h2></span
-					></li>
-					<li><span class="menu"
-						><h2><a href="">Contacto</a></h2></span
-					></li>
+		<header class="container">
+			<a class="logo" href="index.html"
+				><img
+					src="imagenes/logoAquaDetalles.png"
+					alt="imagen de logo"
+					width="50px"
+					height="50px"
+			/></a>
+			<nav class="menu_superior">
+				<ul class="menu_superior_2">
+					<li class="li_menu">
+						<a class="menu" href="#nosotros">Nosotros</a>
+					</li>
+					<li class="li_menu">
+						<a class="menu" href="productos.html">Productos</a>
+					</li>
+					<li class="li_menu">
+						<a class="menu" href="horarios.html">Horarios</a>
+					</li>
+					<li class="li_menu">
+						<a class="menu" href="contacto.html">Contacto</a>
+					</li>
 				</ul>
 			</nav>
-			</header>
+		</header>
 
-			<main>
-				<div class="cuerpo">
-					<h2 id="quienes somos">Quienes somos</h2>
+		<main class="main">
+			<section class="cuerpo">
+				<h1 class="titulo_paginas">Nosotros</h1>
+				<div class="nosotros" id="nosotros">
+					<img src="imagenes/nosotros.png" alt="imagen de grupo laboral" />
 					<p>
-						Lili-Bana, es una franquicia de una importante empresa del rubro
-						heladero. Fundada en los años 90 en la ciudad de Córdoba y con más
-						de 25 años de exitosa trayectoria, ha llegado a nuestra ciudad para
-						poder brindarte una combinación perfecta entre Calidad, Precio y
-						Atención!!!
+						Somos una franquicia de una importante empresa del rubro heladero.
+						Fundada en los años 90 en la ciudad de Córdoba y con más de 25 años
+						de exitosa trayectoria. Han logrado una rápida expansión a lo largo
+						y ancho del país, llegado a nuestra ciudad para poder brindarte una
+						combinación perfecta entre
+						<strong> Precio, Calidad y Atención!!!</strong>
 					</p>
 				</div>
-			</main>
+			</section>
+		</main>
 
-			<footer class="pieDePagina">
-				<h5 id="copyright">
-					Copyright 2021- Todos los derechos reservados a Lili-Bana
-				</h5>
-				<p id="contacto_pieDePagina">Haga su pedido aquí!!!</p>
-				<a href="index.html"><h5 id="inicio_pieDePagina">Inicio</h5></a>
-			</footer>
-		</div>
+		<footer class="pieDePagina">
+			<p class="copyright">
+				Copyright 2021- Todos los derechos reservados a Via-Bana.
+			</p>
+			<p class="copyright_2">Realizada por F.S. Desarrollo web.</p>
+			<a class="btn-pedido" href="#">pedir aqui!!!</a>
+			<a class="btn-inicio" href="#">INICIO</a>
+		</footer>
 	</body>
 </html>

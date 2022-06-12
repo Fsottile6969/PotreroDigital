@@ -4,109 +4,102 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
 		<title>Productos</title>
 	</head>
 	<body>
-		<div class="container">
-			<header>
-				<a href="index.html"
-					><img
-						src="imágenes/lilibana-colores.jpeg"
-						alt=""
-						width="50px"
-						height="50px"
-				/></a>
-				<div class="productos">
-					<h2 id="productos">Productos</h2>
+		<header class="container">
+			<a class="logo" href="index.html"
+				><img
+					src="imagenes/logoAquaDetalles.png"
+					alt="imagen de logo"
+					width="50px"
+					height="50px"
+			/></a>
+			<nav class="menu_superior">
+				<ul class="menu_superior_2">
+					<li class="li_menu">
+						<a class="menu" href="index.html">Nosotros</a>
+					</li>
+					<li class="li_menu">
+						<a class="menu" href="productos.html">Productos</a>
+					</li>
+					<li class="li_menu">
+						<a class="menu" href="horarios.html">Horarios</a>
+					</li>
+					<li class="li_menu">
+						<a class="menu" href="contacto.html">Contacto</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="main">
+			<section class="cuerpo_1">
+				<h1 class="titulo_paginas" id="titulo_paginas1">Productos</h1>
+				<div class="section_1">
+					<div class="card">
+						<div class="titulo">Pote de 1 Kg</div>
+						<div class="cuerpo_card">
+							<img src="imagenes/poteDekg.jpg" alt="pote de helado" />
+						</div>
+						<div class="pie">
+							<a href="#sabores">Más información</a>
+						</div>
+					</div>
+					<div class="card">
+						<div class="titulo">Cono helado</div>
+						<div class="cuerpo_card">
+							<img src="imagenes/cono1bocha.jpg" alt="cono helado" />
+						</div>
+						<div class="pie">
+							<a href="#sabores">Más información</a>
+						</div>
+					</div>
+					<div class="card">
+						<div class="titulo">Cono doble</div>
+						<div class="cuerpo_card">
+							<img src="imagenes/Cono2Bochas.jpg" alt="cono doble" />
+						</div>
+						<div class="pie">
+							<a href="#sabores">Más información</a>
+						</div>
+					</div>
+					<div class="card">
+						<div class="titulo">Palitos</div>
+						<div class="cuerpo_card">
+							<img src="imagenes/pailtoDeCrema.jpg" alt="palito helado" />
+						</div>
+						<div class="pie">
+							<a href="#sabores">Más información</a>
+						</div>
+					</div>
 				</div>
-			</header>
-			<main>
-				<span
-					><h4>Pote de 1Kg</h4>
-					<br />
-					<img src="imágenes/poteDekg.jpg" alt="" width="250px" height="250px"
-				/></span>
-				<span
-					><h4>Pote de 1Kg</h4>
-					<br />
-					<img src="imágenes/poteDekg.jpg" alt="" width="250px" height="250px"
-				/></span>
-				<span
-					><h4>Palito Bombón</h4>
-					<br />
+			</section>
+			<section class="info">
+				<h1 class="titulo_paginas">Sabores</h1>
+				<div class="sabores" id="sabores">
+					<img src="imagenes/Chocolate.jpg" alt="helado de chocolate" />
 					<img
-						src="imágenes/palitoBombon.jpg"
-						alt=""
-						width="250px"
-						height="250px"
-				/></span>
-				<span
-					><h4>Palito de Crema</h4>
-					<br />
-					<img
-						src="imágenes/pailtoDeCrema.jpg"
-						alt=""
-						width="250px"
-						height="250px"
-				/></span>
-				<span
-					><h4>Palito de Frutilla</h4>
-					<br />
-					<img
-						src="imágenes/pailtoDeFrutillaAlAgua.jpg"
-						alt=""
-						width="250px"
-						height="250px"
-				/></span>
-				<span
-					><h4>Palito de Limón</h4>
-					<br />
-					<img
-						src="imágenes/pailtoDeLimon.jpg"
-						alt=""
-						width="250px"
-						height="250px"
-				/></span>
-				<span
-					><h4>Granizado</h4>
-					<br />
-					<img src="imágenes/Granizado.jpg" alt="" width="250px" height="250px"
-				/></span>
-				<span
-					><h4>D. L. Granizado</h4>
-					<br />
-					<img
-						src="imágenes/dulceDeLecheGranizado.jpg"
-						alt=""
-						width="250px"
-						height="250px"
-				/></span>
-				<span
-					><h4>Cono simple</h4>
-					<br />
-					<img
-						src="imágenes/cono1bocha.jpg"
-						alt=""
-						width="250px"
-						height="250px"
-				/></span>
-				<span
-					><h4>Cono doble</h4>
-					<br />
-					<img
-						src="imágenes/Cono2Bochas.jpg"
-						alt=""
-						width="250px"
-						height="250px"
-				/></span>
-			</main>
-			<footer class="pieDePagina">
-				<h5 id="copyright">
-					Copyright 2021- Todos los derechos reservados a Lili-Bana
-				</h5>
-				<p id="contacto_pieDePagina">Haga su pedido aquí!!!</p>
-				<a href="index.html"><h5 id="inicio_pieDePagina">Inicio</h5></a>
-			</footer>
-		</div>
+						src="imagenes/dulceDeLecheGranizado.jpg"
+						alt="helado de dulce de leche granizado"
+					/>
+					<img src="imagenes/frutillaALaCrema.jpg" alt="helado de frutilla" />
+					<img src="imagenes/Granizado.jpg" alt="helado granizado" />
+					<img src="imagenes/limonAlAgua.jpg" alt="helado de limon al algua" />
+					<img src="imagenes/pailtoDeFrutillaAlAgua.jpg" alt="" />
+					<img src="imagenes/palitoBombon.jpg" alt="" />
+				</div>
+				<p>Proximamente nuevos sabores!!!</p>
+			</section>
+		</main>
+		<footer class="pieDePagina">
+			<p class="copyright">
+				Copyright 2021- Todos los derechos reservados a Via-Bana.
+			</p>
+			<p class="copyright_2">Realizada por F.S. Desarrollo web.</p>
+			<a class="btn-pedido" href="#">pedir aqui!!!</a>
+			<a class="btn-inicio" href="#">INICIO</a>
+		</footer>
 	</body>
 </html>
