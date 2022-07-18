@@ -77,49 +77,81 @@
 			</nav>
 		</header>
 
-		<main class="main">
-			<section class="cuerpo_2">
-				<h1 class="titulo_paginas" id="contacto">contacto</h1>
-				<div class="section_3">
-					<div class="contacto">
-						<h1>escríbenos</h1>
-						<p>
+		<main class="main overflow-hidden">
+			<section class="cuerpo_2 container-fluid">
+				<div class="row">
+					<h1 class="titulo_paginas" id="contacto">contacto</h1>
+				</div>
+				<p
+					class="col-sm-12 text-uppercase text-center mx-2 fst-italic"
+					id="personas-p"
+				>
+					"ayudanos a mejorar... asi endulzamos mas tu vida"
+				</p>
+				<div class="row section_3 d-flex justify-content-center">
+					<div class="col contacto text-center align-items-center">
+						<h1 class="titulo-form text-uppercase mt-5 mb-4">escríbenos</h1>
+						<p class="p-contacto pb-3 w-75">
 							Tu opinión, consejo, comentario y/o crítica constructiva siempre
 							viene bien. Aquí podes dejarnos tu sugerencia, consulta, mensaje
 							de aliento, piropos y todo lo que quieras. Y, por supuesto, te
 							esperamos siempre en nuestros local.
 						</p>
-						<div class="form_contacto">
-							<form action="contacto">
-								<label for="nombre">Nombre:</label>
-								<input
-									id="nombre"
-									name="nombre"
-									placeholder="Nombre completo"
-								/>
-								<label for="email">Email:</label>
-								<input
-									id="email"
-									name="email"
-									type="email"
-									placeholder="ejemplo@email.com"
-								/>
-								<label for="mensaje">Mensaje:</label>
-								<textarea
-									id="mensaje"
-									name="mensaje"
-									placeholder="Danos tu mensaje"
-								></textarea>
-								<button class="btn btn-primary" type="submit" value="Enviar">
-									Enviar
-								</button>
-							</form>
+						<div class="row">
+							<div class="col-xl-6 mb-4 col-sm-12 form_contacto">
+								<form action="contacto">
+									<div class="mb-3">
+										<label for="nombre">Nombre:</label>
+										<input
+											id="nombre"
+											name="nombre"
+											placeholder="Nombre completo"
+										/>
+									</div>
+									<div class="mb-3">
+										<label for="email">Email:</label>
+										<input
+											id="email"
+											name="email"
+											type="email"
+											placeholder="ejemplo@email.com"
+										/>
+									</div>
+									<div class="mb-3">
+										<label for="mensaje">Mensaje:</label>
+										<textarea
+											id="mensaje"
+											name="mensaje"
+											placeholder="Danos tu mensaje"
+										></textarea>
+									</div>
+									<div class="mb-3">
+										<button
+											class="btn btn-primary"
+											type="submit"
+											value="Enviar"
+										>
+											Enviar
+										</button>
+									</div>
+								</form>
+							</div>
 						</div>
 					</div>
-					<div class="map"><iframe
-						class="map"
-						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.747164764893!2d-62.2656819563428!3d-38.72361345608358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbcb469c82ea9%3A0xcdbc7be923888fe!2sFitz%20Roy%20235%2C%20Bah%C3%ADa%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1658091616991!5m2!1ses-419!2sar"
-					></iframe></div>
+					<div
+						class="col-xl-6 col-sm-12 text-center d-flex align-items-center justify-content-center mb-4 mt-4"
+					>
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12450.341076755845!2d-62.26708206943358!3d-38.727329792413414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1658138457541!5m2!1ses-419!2sar"
+							width="600"
+							height="450"
+							style="border: 0"
+							allowfullscreen=""
+							loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade"
+						></iframe>
+					</div>
+					<div></div>
 				</div>
 			</section>
 			<section class="botones h-75 p-3 bg-danger">
