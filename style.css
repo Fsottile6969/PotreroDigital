@@ -388,9 +388,15 @@ textarea {
 @media (max-width: 1023px) {
 	.section_3 {
 		flex-direction: column;
+		max-width: 100%;
 	}
 }
 
 @media (max-width: 600px) {
+	.section_3 {
+		flex-direction: column;
+		max-width: 100%;
+	}
+
 	
 }
